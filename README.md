@@ -6,16 +6,15 @@
 
 * 已实现
 
-    
-    1. 本类可以自动处理文件数量、大小、（可配置）
+  1. 本类可以自动处理文件数量、大小、（可配置）
 
-    2. crash、以及 app kill 时本地数据不会丢失，并把crash信息存入
+  2. crash、以及 app kill 时本地数据不会丢失，并把crash信息存入
 
-    3. 多线程 并发无碍
+  3. 多线程 并发无碍
 
 ### 用法
 
-* 利用宏 
+* 利用宏
 
 ```Objective-C
 
@@ -48,4 +47,10 @@ extern NSUInteger const kCXDefaultLogMaxNumLogFiles; // 文件数量阈值 超�
 extern unsigned long long const kCXDefaultLogFilesDiskQuota; // 文件总占本地空间 超过删除
 
 ```
+
+### 获取真机沙盒文件
+
+看着图步骤
+
+![](https://github.com/DaiChenxi/CXLoger/blob/master/CXLoger/CXLoger/1.png)
 
